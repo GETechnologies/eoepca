@@ -49,6 +49,7 @@
   - [User Management](#user-management)
   - [Processing and Chaining](#processing-and-chaining)
   - [Resource Management](#resource-management)
+- [Implemented Standards](#Implemented-Standards)
 - [Releases](#releases)
 - [Issues](#issues)
 - [License](#license)
@@ -61,7 +62,7 @@
 
 EO Exploitation Platform Common Architecture (EOEPCA)
 
-Earth Observation (EO) data has quickly evolved into an indispensable resource, directly facilitating solutions for society's most pressing challenges. This intensifying influx of data, oftentimes distributed across multiple independent platforms, presents a significant challenge for end-users in efficiently accessing and collaborating on critical geospatial tasks. Nevertheless, these platforms are more commonly collocated with cloud computing resources and applications such that users are now able to perform geospatial analysis tasks remotely. Working in the cloud bypasses traditional download, storage and performance limitations, however the distributed nature of these platform networks introduces complexities in the free and collective access to this remote geospatial data.
+Earth Observation (EO) data has quickly evolved into an indispensable resource, directly facilitating solutions for society's most pressing challenges. This intensifying influx of data, oftentimes distributed across multiple independent platforms, presents a significant challenge for end-users in efficiently accessing and collaborating on critical geospatial tasks. Nevertheless, these platforms are more commonly collocated with cloud computing resources and applications such that users are now able to perform geospatial analysis tasks remotely. Working in the cloud bypasses traditional download, storage and performance limitations, however the distributed nature of these platform networks introduces complexities in the free and collective access to this remote geospatial data. 
 
 Our vision with EOEPCA then is for greater interoperability between such platforms, towards an open network of resources, whilst enabling current and future users to easily collaborate on geospatial analysis tasks at source. To this end we are helping to establish a consensus of best practice for EO Exploitation Platforms, based on open standards. Supporting that, we are developing a reference implementation of building blocks, as free open source software.
 
@@ -161,6 +162,16 @@ Registration API | https://github.com/EOEPCA/rm-registration-api | https://deplo
 Workspace API | https://github.com/EOEPCA/rm-workspace-api/ | https://deployment-guide.docs.eoepca.org/v1.3/eoepca/workspace/<br>https://system-description.docs.eoepca.org/current/resources/workspace/
 Minio Bucket API | https://github.com/EOEPCA/rm-minio-bucket-api | https://deployment-guide.docs.eoepca.org/v1.3/eoepca/workspace/#minio-bucket-api-webhook | https://system-description.docs.eoepca.org/current/resources/workspace/
 
+
+<!-- Implemented-Standards -->
+## Implemented Standards
+
+The EOEPCA project aligns with OGC standards and best practices including:
+
+- OGC API: Coverages, Maps, Records, Features, Processing, Tiles
+- OGC Web Services: WFS, WMTS, WCS, WMS, WPS
+
+For full documentation on how EOEPCA implements these standards, visit the [EOEPCA](https://github.com/EOEPCA) repository. For further details on the OGC standards visit the official [API](https://ogcapi.ogc.org/) and [Web Services](https://www.ogc.org/standard/owc/) pages.
 
 <!-- Releases -->
 ## Releases
